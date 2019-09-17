@@ -72,7 +72,7 @@ button{
     
 }
 
-@media only screen and (max-width: 411px){
+@media only screen and (max-width: 414px){
     .container{
         width: 80%;
     }
@@ -107,9 +107,9 @@ button{
 
 @media only screen and (min-width: 1024px){
     .container{
-        width: 65%;
+        width:40%;
     }
     .langs{
-        margin-left: 180px;
+        margin-left: 130px;
     }
 }

@@ -2,7 +2,7 @@ body{
     background: #E5E5E5;
 }
 .container{
-    /* width: 100%; */
+    /* width: 50%; */
     margin: 100px auto
 }
 #left-div{
@@ -30,7 +30,8 @@ ul li{
     padding: 5px
 }
 li.active{
-    color: #110DB2;
+    color: #FFFFFF;
+    background: #162D7D;
     
 }
 a{
@@ -49,26 +50,22 @@ a{
 #password-reset{
     color: red
 }
-nav.navbar{
+/* nav button.nav-btn{
     display: none
-}
-button{
-    margin-left: 118px
-}
+} */
 
 @media only screen and  (max-width: 385px){
     .container{
         width: 75%;
     }
-    #left-div,#lang-list{
+    #left-div{
         display: none
     }
-    nav.navbar{
-        display: block
+    
+    .langs{
+        margin-left: 60px;
     }
-    p.tga{
-        display: inline-block
-    }
+    
     
 }
 
@@ -76,18 +73,12 @@ button{
     .container{
         width: 80%;
     }
-    #left-div,#lang-list{
+    #left-div{
         display: none
-    }
-    nav.navbar{
-        display: block
-    }
-    p.tga{
-        display: inline-block
     }
 }
 
-@media only screen and (min-width: 578px){
+@media screen and (min-width: 578px){
     .container{
         width: 80%;
     }
@@ -96,7 +87,7 @@ button{
     }
 }
 
-@media only screen and (min-width: 768px){
+@media screen and (min-width: 768px){
     .container{
         width: 85%;
     }
@@ -105,7 +96,7 @@ button{
     }
 }
 
-@media only screen and (min-width: 1024px){
+@media screen and (min-width: 1024px){
     .container{
         width: 65%;
     }

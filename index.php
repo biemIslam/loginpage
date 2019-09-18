@@ -14,21 +14,23 @@
             <div class="col-sm-5 col-md-5 text-center font-weight-bolder"  id="left-div"> TEAM TGA</div>
             <div class="col-sm-7 col-md-7" id="right-div"> 
                 <div class="row">
-                        <nav class="col-md-12 navbar navbar-light">
-                            <p class="h4 font-weight-bolder tga">BIEM</p>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#lang-list">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                        </nav>
-                    <div class="langs col-md-7 col-lg-7 mt-4 p-2" id="lang-list">
-                        <ul>
-                            <li class="active">ENG</li>
-                            <li>ESP</li>
-                            <li>FRE</li>
-                            <li>GER</li>
-                            <li>CHI</li>
-                        </ul>  
-                    </div>
+                    <nav class="col-md-12 navbar navbar-light">
+                        <a class="navbar-brand h4 font-weight-bolder tga" href="#">BIEM</a>
+                        <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse" data-target="#langList">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>  
+                    </nav>
+                    <div class="row">
+                        <div class="collapse navbar-collapse langs col-12 mt-4 p-2" id="langList">
+                            <ul>
+                                <li class="active">ENG</li>
+                                <li>ESP</li>
+                                <li>FRE</li>
+                                <li>GER</li>
+                                <li>CHI</li>
+                            </ul> 
+                        </div>  
+                    </div>  
                     <form class="py-5 col-md-12">
                         <p class="h5 text-center">LOGIN DETAILS</p>
                         <div class="form-group row">
@@ -49,5 +51,8 @@
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
